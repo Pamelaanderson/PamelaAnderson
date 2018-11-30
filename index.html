@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Replace the text between the tags with your own information! -->
+
+<!-- The <head> section contains the meta-information about your website, including title and links to stylesheets. -->
+
+<head>
+    <title>Pamela Anderson</title>
+
+    <!-- Bootstrap CSS CDN – provides free CSS! (The container, header, and footer sections are all provided by Bootstrap.) -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+
+    <!-- This links to our CSS file, which adds styling to the website. -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font Awesome CDN – for icons for email and social media links. -->
+    <script src="https://use.fontawesome.com/44cb379512.js"></script>
+
+
+</head>
+
+<!--navbar section-->
+
+<body data-spy="scroll" data-target="#nav">
+    <header class="clearfix" id="home">
+        <nav class="navbar navbar-default navbar-fixed-top" id="nav">
+            <div class="container">
+                <div class="navbar-header">
+                    <button aria-controls="navbar" aria-expanded="false" data-target="#navbar" data-toggle="collapse"
+                        class="navbar-toggle collapsed" type="button">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <!--Contact me Section-->
+                <div class="navbar-collapse collapse" id="navbar">
+                    <ul class="nav navbar-nav social-list">
+                        <li><a href="https://github.com/Pamelaanderson" target="_blank"><i class="fa fa-github fa-2x"
+                                    title="GitHub" aria-hidden="true"></i>
+                            </a></li>
+                        <li><a href="https://www.linkedin.com/in/pamela-anderson-85b98a89/" target="_blank"><i class="fa fa-linkedin fa-2x"
+                                    title="LinkedIn" aria-hidden="true"></i>
+                            </a></li>
+                        <li><a href="mailto:<" pamelaanderson519@yahoo.com"><i class="fa fa-envelope fa-2x" title="Email"
+                                    aria-hidden="true"></i>
+                            </a></li>
+                           <li button type="button" class="close"  id="resume-btn" aria-label="Close">
+                                <span aria-hidden="true">Resume</span>
+                            </button>
+                            </li>
+                    </ul>
+                    <!-- navbar tabs-->
+                    <ul class="nav navbar-nav navbar-right">
+                        <li data-elem="parallax"><a href="#home">HOME</a></li>
+                        <li data-elem="about"><a href="#about">ABOUT</a></li>
+                        <li data-elem="portfolio"><a href="#works">PORTFOLIO</a></li>
+                        <li data-elem="skills"><a href="#skills">SKILLS</a></li>
+                        <li data-elem="contacts"><a href="#contacts">CONTACT</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+
+        <!-- home section with first container-->
+        <div class="banner parallax scroll" id="parallax">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-offset-4 col-md-8 col-sm-12  banner-content">
+                        <!--To do: fix the spacing <br> -->
+                        <h1>PAMELA ANDERSON</h1>
+                        <h3>full stack web developer </h3>
+                        <h3></h3>
+                        <br>
+                        <br><br><br><br> <br><br><br><br>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--about me- second section-->
+    <section class="about scroll" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="text-center about-content">
+                    <h2>About Me</h2>
+                    <img src="./images/me.JPG" alt="about me" class="image-responsive img-circle img-thumbnail center-block">
+                    <p class="about-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam finibus vel
+                        libero sed mollis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere
+                        cubilia Curae; Sed maximus ligula justo, a dapibus nibh porta in. Mauris ante tortor,
+                        sollicitudin nec tellus vitae, pharetra lacinia mauris. Sed feugiat ex eget auctor egestas.
+                        Cras malesuada bibendum hendrerit. Nam augue quam, venenatis a tellus non, tincidunt dictum
+                        quam.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!--Portfolio section-->
+    <section class="works scroll" id="works">
+        <div class="container">
+            <h2 class="text-center">
+               PORTFOLIO PROJECTS
+            </h2>
+            <div class="row">
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <a href="https://arcane-woodland-63547.herokuapp.com/" target="_blank">
+                        <div class="block wow rotateInDownLeft" data-wow-duration="1s" data-wow-delay="0.15s">
+                            <div class="works-thumb" id="work-1"></div>
+                            <div class="works-caption">Bamazon</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <a href="https://sukjunar.github.io/Moodvies/" target="_blank">
+                        <div class="block wow rotateInDownLeft" data-wow-duration=".8s" data-wow-delay="0.3s">
+                            <div class="works-thumb" id="work-2"></div>
+                            <div class="works-caption">Moodvies</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <a href="https://fierce-wildwood-58007.herokuapp.com/" target="_blank">
+                        <div class="block wow rotateInDownLeft" data-wow-duration=".8s" data-wow-delay="0.45s">
+                            <div class="works-thumb" id="work-3"></div>
+                            <div class="works-caption">Tiny Improvements- Kudos</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <a href="https://pure-oasis-16946.herokuapp.com/" target="_blank">
+                        <div class="block wow rotateInDownRight" data-wow-duration=".8s" data-wow-delay="0.6s">
+                            <div class="works-thumb" id="work-4"></div>
+                            <div class="works-caption">Employee Finder</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <a href="https://pamelaanderson.github.io/StockSearchApplication/" target="_blank">
+                        <div class="block wow rotateInDownRight" data-wow-duration=".8s" data-wow-delay="0.75s">
+                            <div class="works-thumb" id="work-5"></div>
+                            <div class="works-caption">Stock Search Application</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <a href=" https://pamelaanderson.github.io/EmployeeDirectory/" target="_blank">
+                        <div class="block wow rotateInDownRight" data-wow-duration=".8s" data-wow-delay="0.9s">
+                            <div class="works-thumb" id="work-6"></div>
+                           
+                                <div class="works-caption">Employee Directory</div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Skills-->
+    <section class="skills scroll" id="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <!--Need to update skills-->
+            <div class="row">
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="skills-thumb wow bounceIn" data-wow-duration="1.5s" data-wow-delay="0s">
+                        <img src="./images/html.png" alt="HTML5 logo"
+                            class="img-responsive img-thumbnail center-block">
+                        <h3 class="skill-input">HTML5</h3>
+                        <p class="skill-input">.....</p>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="skills-thumb wow bounceIn" data-wow-duration="1.5s" data-wow-delay="0.2s">
+                        <img src="images/css.png" alt="CSS3 logo"
+                            class="img-responsive img-thumbnail center-block">
+                        <h3 class="skill-input">CSS3</h3>
+                        <p class="skill-input">.....</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="skills-thumb wow bounceIn" data-wow-duration="1.5s" data-wow-delay="0.6s">
+                        <img src="images/js.png" alt="JavaScript logo"
+                            class="img-responsive img-thumbnail center-block">
+                        <h3 class="skill-input">JavaScript</h3>
+                        <p class="skill-input">.....</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="skills-thumb wow bounceIn" data-wow-duration="1.5s" data-wow-delay="0.6s">
+                        <img src="images/jquery.png" alt="jQuery logo"
+                            class="img-responsive img-thumbnail center-block">
+                        <h3 class="skill-input">jQuery</h3>
+                        <p class="skill-input">.....</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="skills-thumb wow bounceIn" data-wow-duration="1.5s" data-wow-delay="0.6s">
+                        <img src="images/react.png" alt="React.jS logo"
+                            class="img-responsive img-thumbnail center-block">
+                        <h3 class="skill-input">React.jS</h3>
+                        <p class="skill-input">.....</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="skills-thumb wow bounceIn" data-wow-duration="1.5s" data-wow-delay="0.6s">
+                        <img src="images/sql.png" alt="MySQL logo"
+                            class="img-responsive img-thumbnail center-block">
+                        <h3 class="skill-input">MySQL</h3>
+                        <p class="skill-input">.....</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="skills-thumb wow bounceIn" data-wow-duration="1.5s" data-wow-delay="0.6s">
+                        <img src="images/mdb.png" alt="MongoDB logo"
+                            class="img-responsive img-thumbnail center-block">
+                        <h3 class="skill-input">MongoDB</h3>
+                        <p class="skill-input">.....</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="skills-thumb wow bounceIn" data-wow-duration="1.5s" data-wow-delay="0.6s">
+                        <img src="images/c.png" alt="C# logo"
+                            class="img-responsive img-thumbnail center-block">
+                        <h3 class="skill-input">C#--Soon to come </h3>
+                        <p class="skill-input">.....</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--footer-->
+    <footer>
+        <div class="container">
+            <h2 class="text-center" id="contacts">Get in touch</h2>
+            <div class="row contact">
+
+                <div class="col-md-6">
+                    <div class="contacts-data">
+                        <i class="fa fa-paper-plane fa-2x"></i>
+                        <span class="contact-text">Atlanta, GA</span>
+                    </div>
+                    <div class="contacts-data">
+                        <i class="fa fa-phone fa-2x"></i>
+                        <span class="contact-text">(501) 860-1832</span>
+                    </div>
+                    <div class="contacts-data">
+                        <i class="fa fa-envelope fa-2x"></i>
+                        <span class="contact-text">pamelaanderson519@yahoo.com</span>
+                    </div>
+                </div>
+            </div>
+            <p class="text-center">
+                PAMELA ANDERSON &copy; 2018
+            </p>
+        </div>
+    </footer>
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Bootstrap JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
