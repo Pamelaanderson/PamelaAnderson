@@ -117,7 +117,7 @@ header .banner {
 
 /*works*/
 .block {
-    box-shadow: 4px 4px 7px #333;
+    box-shadow: 6px 6px 9px #333;
     overflow: hidden;
     position: relative;
     margin-bottom: 10%;
@@ -221,6 +221,7 @@ header .banner {
     margin: 7% 0;
 }
 
+
 /*work end*/
 
 /*skillls*/
@@ -244,7 +245,7 @@ header .banner {
 }
 /*skills end*/
 
-/*social list main*/
+/*footer*/
 .social-footer {
     background: #fff;
 }
