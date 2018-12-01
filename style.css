@@ -55,11 +55,11 @@ nav.navbar {
 .fa-envelope{
     padding: 3px 3 3 3px;
 }
-#resume-btn {
-    padding: 3px;
-    left: 12px;
-    
+.fa-file{
+    padding-left: 3px;
 }
+
+
 /* roatest the images to fit up right*/
 .social-list li i {
     transform: rotate(-45deg);
@@ -220,6 +220,7 @@ header .banner {
 .works h2 {
     margin: 7% 0;
 }
+
 /*work end*/
 
 /*skillls*/
@@ -233,6 +234,10 @@ header .banner {
 }
 .skills .skills-thumb {
    margin-bottom: 5%;
+   box-shadow: 4px 4px 7px #12c2e9;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 10%;
 }
 .skill-input {
     color: white;
@@ -311,6 +316,12 @@ footer h2 {
     text-transform: uppercase;
     letter-spacing: 0.33rem;
     padding-left: 7%;
+}
+#bottom-resume {
+    color: #fff;
+}
+#bottom-resume:hover {
+    color: #c471ed;
 }
 /*footer end*/
 
