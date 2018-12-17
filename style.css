@@ -310,6 +310,7 @@ header .banner {
 .skill-input {
     color: white;
 }
+
 /*skills end*/
 
 /*footer*/
@@ -395,6 +396,12 @@ footer h2 {
     color: #fff;
 }
 #bottom-resume:hover {
+    color: #c471ed;
+}
+#bottom-email {
+    color: #fff;
+}
+#bottom-email:hover {
     color: #c471ed;
 }
 /*footer end*/
