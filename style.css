@@ -166,7 +166,11 @@ header .banner {
 
 /*about*/
 .about {
-    background: #eee;
+    background-image: url(images/aboutme2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
 }
 .about-content {
     margin-top: 7%;
@@ -178,7 +182,10 @@ header .banner {
 .about-text {
     font-size: 2rem;
     line-height: 2;
-    margin: 5% 0 7%;
+    margin: 1% 55px 7%;
+    width: 800px;
+    text-transform: uppercase;
+   
 }
 /*about end*/
 
@@ -242,13 +249,14 @@ header .banner {
 }
 .block::after, .block::before {
     content: '';
-    background: rgba(0,0,0,0.6);
+    background: #71414e;
     position: absolute;
     display: block;
     width: 50%;
     height: 100%;
     top: 0;
     overflow: hidden;
+    opacity: 0.7;
 }
 .block::after {
     left: -50%;
@@ -394,12 +402,14 @@ footer h2 {
 }
 #bottom-resume {
     color: #fff;
+    text-decoration: none;
 }
 #bottom-resume:hover {
     color: #c471ed;
 }
 #bottom-email {
     color: #fff;
+    text-decoration: none;
 }
 #bottom-email:hover {
     color: #c471ed;
