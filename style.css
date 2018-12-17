@@ -27,6 +27,7 @@ nav.navbar {
     font-size: 1.2rem;
     letter-spacing: 0.4rem;
 }
+
 /* .scroll-down {
     margin-top: 3%;
 } */
@@ -69,13 +70,57 @@ nav.navbar {
 
 /*banner*/
 header .banner {
-	background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9) ;
-    background-position: top;
+    /* background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9) ; */
+    width: 100wh;
+	height: 90vh;
+	color: #fff;
+	background: linear-gradient(-45deg, #f64f59, #c471ed, #12c2e9, #23D5AB);
+	background-size: 400% 400%;
+	-webkit-animation: Gradient 15s ease infinite;
+	-moz-animation: Gradient 15s ease infinite;
+	animation: Gradient 15s ease infinite;
+    /* background-position: top;
     background-size: 100%;
     height: 55%;
     position: relative;
-    z-index: -10;
+    z-index: -10; */
 }
+@-webkit-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@-moz-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
 .banner-content {
     color: #fff;
     font-family: "Lato", serif;
@@ -93,6 +138,28 @@ header .banner {
     margin: 5% 0;
     color: #eeeeee;
     font-weight: bold;
+}
+.bouncing-arrow {
+    position: absolute;
+    left:50%;
+    bottom:0;
+    margin-top:-25px;
+    margin-left:-25px;
+    margin-bottom: 5px;
+    height:50px;
+    width:50px;
+    background: url(https://cdn1.iconfinder.com/data/icons/arrows-15/96/Arrow-Down2-512.png);
+    background-size:contain;
+    -webkit-animation:bounce 1.0s infinite;
+    left: 200px;
+}
+
+@-webkit-keyframes bounce {
+   0%       { bottom:5px; }
+    25%      { bottom:10px; }
+    50%      { bottom:12px; }
+ 75%      { bottom:17px; }
+    100%     { bottom:0;}
 }
 /*banner end*/
 /*header end*/
@@ -284,9 +351,15 @@ header .banner {
 /*footer*/
 footer {
      
-	background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9) 70% no-repeat;
-    background-size: cover;
-    color: #fff;
+	/* background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9) 70% no-repeat; */
+    width: 100wh;
+	height: 90vh;
+	color: #fff;
+	background: linear-gradient(-45deg, #f64f59, #c471ed, #12c2e9, #23D5AB);
+	background-size: 400% 400%;
+	-webkit-animation: Gradient 15s ease infinite;
+	-moz-animation: Gradient 15s ease infinite;
+	animation: Gradient 15s ease infinite;
 }
 footer h2 {
     margin-top: 7%;

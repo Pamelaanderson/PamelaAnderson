@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="style.css">
 
     <script src="https://use.fontawesome.com/44cb379512.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300" type="text/css" />
 
 
 </head>
@@ -69,23 +70,30 @@
                         <!--To do: fix the spacing <br> -->
                         <h1>PAMELA ANDERSON</h1>
                         <h3>full stack web developer </h3>
-                        <h3></h3>
+                        <a class="bouncing-arrow" href="#about-me"></a>
                         <br>
                         <br><br><br><br> <br><br><br><br>
-
                     </div>
                 </div>
             </div>
+
         </div>
+
     </header>
     <!--about me- second section-->
     <section class="about scroll" id="about">
-        <div class="container">
+        <div class="container" id="about-me">
             <div class="row">
                 <div class="text-center about-content">
                     <h2>About Me</h2>
                     <img src="./images/me.JPG" alt="about me" class="image-responsive img-circle img-thumbnail center-block">
-                    <p class="about-text">I'm a December 2018 graduate of Georgia Tech’s Full Stack Coding program.  Primarily focused on JavaScript Web Development.  Seeking a challenging career opportunity in Programming where my skillset and experience can add immediate value.  I’m a fast learner who is coachable and is seeking to make valuable contributions towards developing solutions to achieve the organizational need.  With solid communication and people skills, I’ll be able to thrive within a team environment and work directly with any end client to achieve effective and efficient results.
+                    <p class="about-text">I'm a December 2018 graduate of Georgia Tech’s Full Stack Coding program.
+                        Primarily focused on JavaScript Web Development. Seeking a challenging career opportunity in
+                        Programming where my skillset and experience can add immediate value. I’m a fast learner who is
+                        coachable and is seeking to make valuable contributions towards developing solutions to achieve
+                        the organizational need. With solid communication and people skills, I’ll be able to thrive
+                        within a team environment and work directly with any end client to achieve effective and
+                        efficient results.
                     </p>
                 </div>
             </div>
@@ -104,7 +112,9 @@
                         <a href="https://arcane-woodland-63547.herokuapp.com/" target="_blank">
                             <div class="block wow rotateInDownLeft" data-wow-duration="1s" data-wow-delay="0.15s">
                                 <div class="works-thumb" id="work-1"></div>
-                                <div class="works-caption" id="port-1">Bamazon</div>
+                                <div class="works-caption" id="port-1">
+                                    <h3>Bamazon</h3>
+                                </div>
                             </div>
                         </a>
                     </div>
@@ -131,34 +141,34 @@
                     </div>
                 </div>
                 <div class="box">
-                <div class="col-md-4 col-sm-6 col-xs-12">
-                    <a href="https://pure-oasis-16946.herokuapp.com/" target="_blank">
-                        <div class="block wow rotateInDownRight" data-wow-duration=".8s" data-wow-delay="0.6s">
-                            <div class="works-thumb" id="work-4"></div>
-                            <div class="works-caption" id="port-4">Employee Finder</div>
-                        </div>
-                    </a>
-                    </div>
-                </div>
-				<div class="box">
-                <div class="col-md-4 col-sm-6 col-xs-12">
-                    <a href="https://pamelaanderson.github.io/StockSearchApplication/" target="_blank">
-                        <div class="block wow rotateInDownRight" data-wow-duration=".8s" data-wow-delay="0.75s">
-                            <div class="works-thumb" id="work-5"></div>
-                            <div class="works-caption" id="port-5">Stock Search Application</div>
-                        </div>
-                    </a>
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <a href="https://pure-oasis-16946.herokuapp.com/" target="_blank">
+                            <div class="block wow rotateInDownRight" data-wow-duration=".8s" data-wow-delay="0.6s">
+                                <div class="works-thumb" id="work-4"></div>
+                                <div class="works-caption" id="port-4">Employee Finder</div>
+                            </div>
+                        </a>
                     </div>
                 </div>
                 <div class="box">
-                <div class="col-md-4 col-sm-6 col-xs-12">
-                    <a href=" https://pamelaanderson.github.io/EmployeeDirectory/" target="_blank">
-                        <div class="block wow rotateInDownRight" data-wow-duration=".8s" data-wow-delay="0.9s">
-                            <div class="works-thumb" id="work-6"></div>
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <a href="https://pamelaanderson.github.io/StockSearchApplication/" target="_blank">
+                            <div class="block wow rotateInDownRight" data-wow-duration=".8s" data-wow-delay="0.75s">
+                                <div class="works-thumb" id="work-5"></div>
+                                <div class="works-caption" id="port-5">Stock Search Application</div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <a href=" https://pamelaanderson.github.io/EmployeeDirectory/" target="_blank">
+                            <div class="block wow rotateInDownRight" data-wow-duration=".8s" data-wow-delay="0.9s">
+                                <div class="works-thumb" id="work-6"></div>
 
-                            <div class="works-caption" id="port-6">Employee Directory</div>
-                        </div>
-                    </a>
+                                <div class="works-caption" id="port-6">Employee Directory</div>
+                            </div>
+                        </a>
                     </div>
                 </div>
 
@@ -172,61 +182,76 @@
         <div class="container">
             <h2>Skills</h2>
             <div class="row">
-                <div class="col-md-3 col-sm-6 col-xs-12">
-                    <div class="skills-thumb wow bounceIn" data-wow-duration="1.5s" data-wow-delay="0s">
-                        <img src="./images/html.png" alt="HTML5 logo" class="img-responsive img-thumbnail center-block">
-                        <h3 class="skill-input">HTML5</h3>
-                        <p class="skill-input"></p>
+                <div class="box">
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="skills-thumb wow bounceIn" data-wow-duration="1.5s" data-wow-delay="0s">
+                            <img src="./images/html.png" alt="HTML5 logo" class="img-responsive img-thumbnail center-block">
+                            <h3 class="skill-input">HTML5</h3>
+                            <p class="skill-input"></p>
+                        </div>
                     </div>
                 </div>
-
-                <div class="col-md-3 col-sm-6 col-xs-12">
-                    <div class="skills-thumb wow bounceIn" data-wow-duration="1.5s" data-wow-delay="0.2s">
-                        <img src="images/css.png" alt="CSS3 logo" class="img-responsive img-thumbnail center-block">
-                        <h3 class="skill-input">CSS3</h3>
-                        <p class="skill-input"></p>
+                <div class="box">
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="skills-thumb wow bounceIn" data-wow-duration="1.5s" data-wow-delay="0.2s">
+                            <img src="images/css.png" alt="CSS3 logo" class="img-responsive img-thumbnail center-block">
+                            <h3 class="skill-input">CSS3</h3>
+                            <p class="skill-input"></p>
+                        </div>
                     </div>
                 </div>
-                <div class="col-md-3 col-sm-6 col-xs-12">
-                    <div class="skills-thumb wow bounceIn" data-wow-duration="1.5s" data-wow-delay="0.6s">
-                        <img src="images/js.png" alt="JavaScript logo" class="img-responsive img-thumbnail center-block">
-                        <h3 class="skill-input">JavaScript</h3>
-                        <p class="skill-input"></p>
+                <div class="box">
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="skills-thumb wow bounceIn" data-wow-duration="1.5s" data-wow-delay="0.6s">
+                            <img src="images/js.png" alt="JavaScript logo" class="img-responsive img-thumbnail center-block">
+                            <h3 class="skill-input">JavaScript</h3>
+                            <p class="skill-input"></p>
+                        </div>
                     </div>
                 </div>
-                <div class="col-md-3 col-sm-6 col-xs-12">
-                    <div class="skills-thumb wow bounceIn" data-wow-duration="1.5s" data-wow-delay="0.6s">
-                        <img src="images/jquery.png" alt="jQuery logo" class="img-responsive img-thumbnail center-block">
-                        <h3 class="skill-input">jQuery</h3>
-                        <p class="skill-input"></p>
+                <div class="box">
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="skills-thumb wow bounceIn" data-wow-duration="1.5s" data-wow-delay="0.6s">
+                            <img src="images/jquery.png" alt="jQuery logo" class="img-responsive img-thumbnail center-block">
+                            <h3 class="skill-input">jQuery</h3>
+                            <p class="skill-input"></p>
+                        </div>
                     </div>
                 </div>
-                <div class="col-md-3 col-sm-6 col-xs-12">
-                    <div class="skills-thumb wow bounceIn" data-wow-duration="1.5s" data-wow-delay="0.6s">
-                        <img src="images/react.png" alt="React.jS logo" class="img-responsive img-thumbnail center-block">
-                        <h3 class="skill-input">React.jS</h3>
-                        <p class="skill-input"></p>
+                <div class="box">
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="skills-thumb wow bounceIn" data-wow-duration="1.5s" data-wow-delay="0.6s">
+                            <img src="images/react.png" alt="React.jS logo" class="img-responsive img-thumbnail center-block">
+                            <h3 class="skill-input">React.jS</h3>
+                            <p class="skill-input"></p>
+                        </div>
                     </div>
                 </div>
-                <div class="col-md-3 col-sm-6 col-xs-12">
-                    <div class="skills-thumb wow bounceIn" data-wow-duration="1.5s" data-wow-delay="0.6s">
-                        <img src="images/sql.png" alt="MySQL logo" class="img-responsive img-thumbnail center-block">
-                        <h3 class="skill-input">MySQL</h3>
-                        <p class="skill-input"></p>
+                <div class="box">
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="skills-thumb wow bounceIn" data-wow-duration="1.5s" data-wow-delay="0.6s">
+                            <img src="images/sql.png" alt="MySQL logo" class="img-responsive img-thumbnail center-block">
+                            <h3 class="skill-input">MySQL</h3>
+                            <p class="skill-input"></p>
+                        </div>
                     </div>
                 </div>
-                <div class="col-md-3 col-sm-6 col-xs-12">
-                    <div class="skills-thumb wow bounceIn" data-wow-duration="1.5s" data-wow-delay="0.6s">
-                        <img src="images/mdb.png" alt="MongoDB logo" class="img-responsive img-thumbnail center-block">
-                        <h3 class="skill-input">MongoDB</h3>
-                        <p class="skill-input"></p>
+                <div class="box">
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="skills-thumb wow bounceIn" data-wow-duration="1.5s" data-wow-delay="0.6s">
+                            <img src="images/mdb.png" alt="MongoDB logo" class="img-responsive img-thumbnail center-block">
+                            <h3 class="skill-input">MongoDB</h3>
+                            <p class="skill-input"></p>
+                        </div>
                     </div>
                 </div>
-                <div class="col-md-3 col-sm-6 col-xs-12">
-                    <div class="skills-thumb wow bounceIn" data-wow-duration="1.5s" data-wow-delay="0.6s">
-                        <img src="images/c.png" alt="C# logo" class="img-responsive img-thumbnail center-block">
-                        <h3 class="skill-input">C#--Soon to come </h3>
-                        <p class="skill-input"></p>
+                <div class="box">
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="skills-thumb wow bounceIn" data-wow-duration="1.5s" data-wow-delay="0.6s">
+                            <img src="images/c.png" alt="C# logo" class="img-responsive img-thumbnail center-block">
+                            <h3 class="skill-input">C#--Soon to come </h3>
+                            <p class="skill-input"></p>
+                        </div>
                     </div>
                 </div>
             </div>
