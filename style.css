@@ -1,5 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Lato);
 
+
 /* Shows a hover over navbar that changes when changing sections */
 .navbar-default .navbar-nav > .active > a {
     background-color: #ccc;
