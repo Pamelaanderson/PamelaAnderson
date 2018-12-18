@@ -166,7 +166,7 @@ header .banner {
 
 /*about*/
 .about {
-    background-image: url(images/aboutme2.jpg);
+    background-image: url(images/aboutme3.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -179,12 +179,21 @@ header .banner {
 .about-content h2 {
     margin: 5%;
 }
+.about-header {
+    position: relative;
+    font-size: 55px;
+    letter-spacing: 3px;
+    text-shadow: white 4px 4px 10px;
+
+}
 .about-text {
     font-size: 2rem;
     line-height: 2;
     margin: 1% 55px 7%;
     width: 800px;
-    text-transform: uppercase;
+    text-shadow: white 4px 4px 10px;
+    position: relative;
+    left: 130px;
    
 }
 /*about end*/
@@ -413,6 +422,11 @@ footer h2 {
 }
 #bottom-email:hover {
     color: #c471ed;
+}
+#footer {
+    position: relative;
+    bottom: -100px;
+
 }
 /*footer end*/
 
