@@ -190,10 +190,13 @@ header .banner {
     font-size: 2rem;
     line-height: 2;
     margin: 1% 55px 7%;
-    width: 800px;
     text-shadow: white 4px 4px 10px;
     position: relative;
-    left: 130px;
+    left: 280px;
+    width: 500px;
+  height: 350px;
+    overflow: auto;
+
    
 }
 /*about end*/
@@ -439,12 +442,17 @@ footer h2 {
 @media screen and (max-width: 990px) {
     header .banner-content {
         text-align: center;
+        position:relative;
+        left: -100px;
     }
     .scroll-down {
         display: none;
     }
     .contacts-data {
         text-align: center;
+    }
+    .about-text {
+    left: 80px;
     }
 }
 @media screen and (max-width: 767px) {
@@ -456,6 +464,14 @@ footer h2 {
     }
     header .social-list {
         display: none;
+    }
+    .about-text {
+        /* font-size: 5vw; */
+        width: 300px;
+        height:250px;
+        overflow:auto;
+        position:relative;
+        left:80px;
     }
     .block {
         width: 65%;
@@ -471,5 +487,13 @@ footer h2 {
     }
     header .banner-content h3 {
         font-size: 1.5rem;
+    }
+    .about-text {
+        font-size: 2vw;
+        width: 150;
+        height:100px;
+        overflow:auto;
+        position:relative;
+        left:80px;
     }
 }
