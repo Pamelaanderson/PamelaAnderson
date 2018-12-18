@@ -329,6 +329,8 @@ header .banner {
 }
 .works h2 {
     margin: 7% 0;
+    text-shadow: #12c2e9 4px 4px 10px;
+
 }
 
 
@@ -342,6 +344,8 @@ header .banner {
 .skills h2 {
     margin: 7%;
     color: #fff;
+    text-shadow: #12c2e9 4px 4px 10px;
+
 }
 .skills .skills-thumb {
    margin-bottom: 5%;
